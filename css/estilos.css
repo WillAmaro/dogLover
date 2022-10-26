@@ -893,6 +893,13 @@ span{
     }
 }
 @media (max-width:900px){
+    .contenedor3 {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding-top: 50px;
+    }
 
     .container__function {
         display: flex;
