@@ -767,6 +767,13 @@ span{
 
 @media(min-width:1800px){
     
+
+    .tem {
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-size: 1.5rem;
+    }
     .contenedor4{
         height: 750px;
     }
