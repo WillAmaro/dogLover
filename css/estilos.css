@@ -767,6 +767,15 @@ span{
 
 @media(min-width:1800px){
     
+    .questions__container {
+        display: grid;
+        font-size: 1.5rem;
+        gap: 2em;
+        padding-top: 50px;
+    }
+    .questions__parragraph{
+        font-size: 1.5rem;
+    }
 
     .tem {
         display: flex;
