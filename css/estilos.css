@@ -325,11 +325,12 @@ span{
 }
 .parrafo{
 
-    width: 90%;
+    width: 100%;
     font-size: 1.14rem;
     color: black;
     font-weight: lighter;
      height: 220px;
+     text-align: center;
 }
 .contenedor2 .top{
     width: auto;
@@ -391,7 +392,7 @@ span{
 .boton{
      color: white;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px 50px;
     width: 190px;
     height: 100px;
     box-shadow: 0 0 2px #53608f;
@@ -400,6 +401,7 @@ span{
     background-color: #53608f;
     border-style: none;
     padding: 10px;
+    margin: auto;
 }
 .ben{
     display: flex;
@@ -732,6 +734,19 @@ span{
 .container__item{
     display: flex;
     flex-direction: row;
+
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.container__item{
+    display: flex;
+    flex-direction: row;
+
+    
+    border-radius: 10px;
+    padding: 10px;
+
 }
 .tem{
     display: flex;
@@ -743,7 +758,9 @@ span{
     font-size: 3rem;
     font-family: 'Outfit', sans-serif;
     font-weight: bolder;
-    color: #48637a;
+    color: #1e4568;
+    text-shadow: 0 0 10px #ca2ae6;
+
 }
 @media(min-width:1050px){
     .benefits .card1 >h1{ 
@@ -765,8 +782,20 @@ span{
 }
 
 
-@media(min-width:1800px){
+@media(min-width:1500px){
+
+    .menu__titulo{
+        font-size: 1.5rem;
+        width: 50%;
+    }
+
+    .subtitle{
+        font-size: 3rem;
+    }
     
+    .contenedor8 h1{
+        font-size: 3rem;
+    }
     .questions__container {
         display: grid;
         font-size: 1.5rem;
@@ -1084,7 +1113,7 @@ span{
     .boton {
         color: white;
         cursor: pointer;
-        border-radius: 5px;
+        border-radius: 15px 50px;
         width: 190px;
         height: auto;
         box-shadow: 0 0 2px #53608f;
