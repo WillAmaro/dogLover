@@ -791,6 +791,16 @@ span{
 
 
 }
+
+#imagen{
+    height: 600px;
+}
+#imagen2{
+    height: 600px;
+}
+#imagen3{
+    height: 600px;
+}
 @media(min-width:1050px){
     .benefits .card1 >h1{ 
         color: white;
