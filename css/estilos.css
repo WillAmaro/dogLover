@@ -795,11 +795,11 @@ span{
 #imagen{
     height: 700px;
 }
-#imagen2{
-    height: 700px;
-}
 #imagen3{
     height: 700px;
+}
+#imagen4{
+    height: 7git 00px;
 }
 @media(min-width:1050px){
     .benefits .card1 >h1{ 
