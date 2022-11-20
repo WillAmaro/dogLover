@@ -793,13 +793,13 @@ span{
 }
 
 #imagen{
-    height: 600px;
+    height: 700px;
 }
 #imagen2{
-    height: 600px;
+    height: 700px;
 }
 #imagen3{
-    height: 600px;
+    height: 700px;
 }
 @media(min-width:1050px){
     .benefits .card1 >h1{ 
